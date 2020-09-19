@@ -14,7 +14,7 @@ class AddEntryUserNameContent extends Migration
     public function up()
     {
         Schema::table('perfume', function (Blueprint $table) {
-            $table->string('Entry-name');
+            $table->string('Entryname');
             $table->string('Content');
         });
     }
