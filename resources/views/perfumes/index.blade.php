@@ -17,19 +17,12 @@
 
                     <tr>
 
-                        <td><a href="/perfume/1">Legend Spirit</a></td>
-                        <td>Mont blanc</td>
-                        <td>Bamiji</td>
+                        <td><a href="/perfume/{{$perfume->id}}">{{$perfume->name}}</a></td>
+                        <td>{{$perfume->brand}}</td>
+                        <td>{{$perfume->Entryname}}</td>
 
                     </tr>
 
-                    <tr>
-                        <td><a href="/perfume/2">Allure Homme Sport Eau Extreme</a></td>
-                        <td>Chanel</td>
-                        <td>Bamiji</td>
-
-                    </tr>
-                </tbody>
             </table>
             <a href="/perfume/create">Submit a new fragrance</a>
             <a href="/">Go to home page</a><br>
