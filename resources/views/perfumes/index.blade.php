@@ -24,7 +24,7 @@
                     </tr>
 
                     <tr>
-                        <td><a href="/perfume/2">Allure Homme Sport Eau extreme</a></td>
+                        <td><a href="/perfume/2">Allure Homme Sport Eau Extreme</a></td>
                         <td>Chanel</td>
                         <td>Bamiji</td>
 
