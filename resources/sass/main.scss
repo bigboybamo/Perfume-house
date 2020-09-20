@@ -2,7 +2,7 @@ html,
 body {
     background-color: #fff;
     color: #636b6f;
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
     font-weight: 200;
     height: 100vh;
     margin: 0;
@@ -32,13 +32,12 @@ body {
     text-align: center;
 }
 
-
-.links>a {
+.links > a {
     color: #636b6f;
     padding: 0 25px;
     font-size: 13px;
     font-weight: 600;
-    letter-spacing: .1rem;
+    letter-spacing: 0.1rem;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -47,7 +46,7 @@ body {
     margin-bottom: 30px;
 }
 
-footer{
+footer {
     background: #eee;
     padding: 20px;
     text-align: center;
@@ -57,5 +56,8 @@ footer{
     font-size: 49px;
     border-bottom: 2px solid;
     padding: 12px;
+}
 
+.create-perfume {
+    margin-left: 65%;
 }
