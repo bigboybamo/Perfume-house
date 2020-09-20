@@ -14,13 +14,13 @@
                         <th>Submitted by</th>
                     </tr>
 
-
+                    @foreach($perfumes as $perfume)
                     <tr>
 
                         <td><a href="/perfume/{{$perfume->id}}">{{$perfume->name}}</a></td>
                         <td>{{$perfume->brand}}</td>
                         <td>{{$perfume->Entryname}}</td>
-
+                        @endforeach
                     </tr>
 
             </table>
